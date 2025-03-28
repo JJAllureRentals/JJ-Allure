@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JJAllureRentals</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: 'Bodoni FLF';
+      src: url('https://fonts.cdnfonts.com/s/17498/BodoniFLF-Bold.woff') format('woff');
+    }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f1e7;
+      color: #1e1e1e;
+    }
+    header {
+      background: #f4f1e7;
+      text-align: center;
+      padding: 2rem 1rem;
+      border-bottom: 1px solid #ccc;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      font-family: 'Bodoni FLF', serif;
+      margin-bottom: 1rem;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+    .service-item {
+      background: #cd7f32;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      font-family: 'Bodoni FLF', serif;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .service-item:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+    .service-item img {
+      width: 100%;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    form {
+      display: grid;
+      gap: 1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+    input, textarea {
+      padding: 0.75rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      background-color: #ffffff;
+      color: #1e1e1e;
+      font-family: 'Poppins', sans-serif;
+    }
+    button {
+      padding: 0.75rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      background: #1e1e1e;
+      color: #f4f1e7;
+      cursor: pointer;
+    }
+    footer {
+      background: #f4f1e7;
+      color: #1e1e1e;
+      text-align: center;
+      padding: 1rem;
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="https://imgbb.com/">
+      <img src="https://i.ibb.co/VWj3MPjj/Black-White-Minimalist-Initials-Monogram-Jewelry-Logo-Instagram-Profile-Picture.png" alt="JJAllureRentals Logo" style="max-width: 200px; margin: 0 auto; display: block;">
+    </a>
+    <p>Smile. Strike. Snap. Shine.</p>
+  </header>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-item">
+        <h3>Mirror Photobooth</h3>
+        <a href="#"><img src="https://via.placeholder.com/300x200?text=Mirror+Photobooth" alt="Mirror Photobooth"></a>
+      </div>
+      <div class="service-item">
+        <h3>iPad Photobooth</h3>
+        <a href="#"><img src="https://via.placeholder.com/300x200?text=iPad+Photobooth" alt="iPad Photobooth"></a>
+      </div>
+      <div class="service-item">
+        <h3>360 Booth</h3>
+        <a href="#"><img src="https://via.placeholder.com/300x200?text=360+Booth" alt="360 Booth"></a>
+      </div>
+      <div class="service-item">
+        <h3>Balloon Arches</h3>
+        <a href="#"><img src="https://i.postimg.cc/zvT40xWG/IMG-5458.jpg" alt="Balloon Arches"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="booking">
+    <h2>Book With Us</h2>
+    <form action="https://formspree.io/f/mkgjvnvb" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="event" placeholder="Event Location & Date" required>
+      <textarea name="message" placeholder="Tell us about your event..." rows="4"></textarea>
+      <button type="submit">Submit Inquiry</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Serving CT, NYC, RI, MA | Email: JJAllureRental@gmail.com</p>
+    <div>
+      <a href="https://facebook.com/JJAllureRentals" target="_blank">Facebook</a> |
+      <a href="https://instagram.com/JJAllureRentals" target="_blank">Instagram</a>
+    </div>
+    <p>&copy; 2025 JJAllureRentals. All rights reserved.</p>
+  </footer>
+</body>
+</html>
